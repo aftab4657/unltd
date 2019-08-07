@@ -1,0 +1,139 @@
+<div id="sidebar"  class="nav-collapse ">
+    <!-- sidebar menu start-->
+    <ul class="sidebar-menu" id="nav-accordion">
+        <li>
+            <a class="" href="{% url 'index' %}">
+                <i class="fa fa-dashboard"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        <li class="sub-menu">
+            <a href="javascript:;" >
+                <i class="fa fa-sitemap"></i>
+                <span>Vendor Account</span>
+            </a>
+            <ul class="sub">
+                <li><a class="pl-2 pb-3 pt-0"  href="{% url 'vendorsignup' %}">Create Vendor</a></li>
+                <li><a id="" class="pl-2 pb-3 pt-0"  href="{% url 'viewvendor' %}">Manage Vendor</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href="javascript:;" >
+                <i class="fa fa-sitemap"></i>
+                <span>Staff Account</span>
+            </a>
+            <ul class="sub">
+                <li><a class="pl-2 pb-3 pt-0"  href="{% url 'staffsignup' %}">Create Staff</a></li>
+                <li><a class="pl-2 pb-3 pt-0"  href="{% url 'viewstaff' %}">Manage Staff</a></li>
+                <li><a class="pl-2 pb-3 pt-0"  href="{% url 'viewstaff' %}">Activity History</a></li>
+            </ul>
+        </li>
+
+        <li class="sub-menu">
+            <a href="javascript:;" >
+                <i class="fa fa-sitemap"></i>
+                <span>Member Management</span>
+            </a>
+            <ul class="sub">
+                <li><a class="pl-2 pb-3 pt-0" href="{% url 'membersignup' %}">Member Registration</a></li>
+                <li><a class="pl-2 pb-3 pt-0" href="{% url 'viewmember' %}">Manage member</a></li>
+                <li><a class="pl-2 pb-3 pt-0" href="{% url 'rechargehistory' %}">Recharge History</a></li>
+                <li><a id="ViewVendor" class="pl-2 pb-3 pt-0"  href="{% url 'transaction' %}">Transection History</a></li>
+            </ul>
+        </li>
+
+        <li class="sub-menu dcjq-parent-li">
+            <a href="javascript:;" class="dcjq-parent">
+                <i class="fa fa-book"></i>
+                <span>Account Setting</span>
+                <span class="dcjq-icon"></span>
+            </a>
+            <ul class="sub" style="display: none;">
+                <li><a href="{% url 'vendorprofile' %}">Business Profile</a></li>
+                <li><a href="{% url 'addtutorial' %}">Admin Account</a></li>
+            </ul>
+        </li>
+
+
+        <li class="sub-menu dcjq-parent-li">
+            <a href="javascript:;" class="dcjq-parent">
+                <i class="fa fa-book"></i>
+                <span>Subscription Package</span>
+                <span class="dcjq-icon"></span>
+            </a>
+            <ul class="sub" style="display: none;">
+                <li><a href='{% url 'createpackages' %}' >Create Package</a></li>
+                <li><a href='{% url 'viewpackages' %}' >View/Modify Package</a></li>
+            </ul>
+        </li>
+
+        <li class="sub-menu dcjq-parent-li">
+            <a href="javascript:;" class="dcjq-parent">
+                <i class="fa fa-sitemap"></i>
+                <span>Messaging</span>
+                <span class="dcjq-icon"></span></a>
+            <ul class="sub" style="display: block;">
+{#                <li><a href="javascript:;">Menu Item 1</a></li>#}
+                <li class="sub-menu dcjq-parent-li">
+                    <a href="boxed_page.html" class="dcjq-parent">Broadcast</a>
+                    <ul class="sub" style="">
+                        <li><a href='{% url 'create_sms' %}'>SMS</a></li>
+                        <li><a href='{% url 'create_email' %}'>Email</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu dcjq-parent-li">
+                    <a href="boxed_page.html" class="dcjq-parent">Event</a>
+                    <ul class="sub" style="">
+                        <li><a href='{% url 'create_event_sms' %}'>SMS</a></li>
+                        <li><a href='{% url 'create_event_email' %}'>Email</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class="sub-menu">
+            <a href="javascript:;" >
+                <i class="fa fa-sitemap"></i>
+                <span>System Setting</span>
+            </a>
+            <ul class="sub">
+                <li class="sub-menu">
+                    <a class="pl-2 pb-3 pt-0" href="{% url 'createpackages' %}">Create Packages</a>
+                </li>
+                <li>
+                    <a class="pl-2 pb-3 pt-0" href="{%  url 'viewpackages' %}">View Packages</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="sub-menu dcjq-parent-li">
+            <a href="javascript:;" class="dcjq-parent">
+                <i class="fa fa-book"></i>
+                <span>Support</span>
+                <span class="dcjq-icon"></span></a>
+            <ul class="sub" style="display: none;">
+                <li><a href="{% url 'viewtutorial' %}">View Ticket</a></li>
+                <li><a href="{% url 'addtutorial' %}">Add Ticket</a></li>
+            </ul>
+        </li>
+
+        <li class="sub-menu dcjq-parent-li">
+            <a href="javascript:;" class="dcjq-parent">
+                <i class="fa fa-book"></i>
+                <span>Subscription Package</span>
+                <span class="dcjq-icon"></span></a>
+            <ul class="sub" style="display: none;">
+                <li><a href='{% url 'createpackages' %}' >Create Subscription Package</a></li>
+                <li><a href='{% url 'viewpackages' %}' >View Subscription Packages</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a class="" href="{% url 'Showdbbackup' %}">
+                <i class="fa fa-save"></i>
+                <span>DB Backup</span>
+            </a>
+        </li>
+    </ul>
+    <!-- sidebar menu end-->
+</div>

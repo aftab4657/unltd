@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-01 16:19+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\UNLTDjango\settings.py:78
+msgid "English"
+msgstr ""
+
+#: .\UNLTDjango\settings.py:79
+msgid "Tagalog"
+msgstr ""
+
+#: .\unltd\templates\packages\pricing_table.html:12
+msgid "View Packages"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:43
+msgid " 30 days Free Trial on All Accounts "
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:44
+msgid " No risk. No hidden fees. Cancel at anytime."
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:49
+msgid " Diamond"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:54
+msgid "  8 hours coverage"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:55
+msgid "  500 digital images"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:56
+msgid "  100 A3 Hard Copy "
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:57
+msgid "  Bridal portrait with 11X14"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:58
+msgid " Engagement portrait with 11X14"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:59
+msgid "  Income Tax included"
+msgstr "abcd"
+
+#: .\unltd\templates\packages\pricing_table.html:62
+msgid "Get Now"
+msgstr "abcd"
